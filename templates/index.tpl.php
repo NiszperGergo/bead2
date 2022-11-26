@@ -11,9 +11,7 @@
 		<img src="./images/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>">
 		<h1><?= $fejlec['cim'] ?></h1>
 		<?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
-	</header>
-    <div id="wrapper">
-        <aside id="nav">
+		<aside id="nav">
             <nav>
                 <ul>
 					<?php foreach ($oldalak as $url => $oldal) { ?>
@@ -25,6 +23,9 @@
                 </ul>
             </nav>
         </aside>
+	</header>
+    <div id="wrapper">
+       
         <div id="content">
             <?php include("./templates/pages/{$keres['fajl']}.tpl.php"); ?>
         </div>
@@ -33,6 +34,8 @@
         <?php if(isset($lablec['copyright'])) { ?>&copy;&nbsp;<?= $lablec['copyright'] ?> <?php } ?>
 		&nbsp;
         <?php if(isset($lablec['ceg'])) { ?><?= $lablec['ceg']; ?><?php } ?>
-    </footer>
+		<a href="https://atlatszonet.hu">Átlásztónet Alapítvány</a>
+		
+	</footer>
 </body>
 </html>

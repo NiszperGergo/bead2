@@ -1,26 +1,28 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Mini honlap Kft.',
+    'cim' => 'Átlátszónet',
 );
 
 $fejlec = array(
-    'kepforras' => 'logo.png',
+    'kepforras' => 'header.jpg',
     'kepalt' => 'logo',
-	'cim' => 'Mini honlap',
-	'motto' => ''
+	'cim' => 'Az Átlászónet Alapítvány hivatalos oldala',
+	
+    
 );
-
 $lablec = array(
-    'copyright' => 'Copyright '.date("Y").'.',
-    'ceg' => 'Mini honlap Kft.'
+    'copyright' => 'Átlászónet Alapítvány '.date("Y").'.',
+    'kepforras' => 'header.jpg'
 );
 
 $oldalak = array(
-	'/' => array('fajl' => 'cimlap', 'szoveg' => 'Címlap'),
-	'bemutatkozas' => array('fajl' => 'bemutatkozas', 'szoveg' => 'Bemutatkozás'),
-	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat'),
-	'cikkek' => array('fajl' => 'cikkek', 'szoveg' => 'Cikkek'),
-    'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'Táblázat')
+	'/' => array('fajl' => 'cimlap', 'szoveg' => 'KEZDŐLAP'),
+	
+	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'KAPCSOLAT'),
+	'azadombol' => array('fajl' => 'ado', 'szoveg' => '#AZADOMBOL'),
+    'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'TABLAZAT'),
+    'Galeria' => array('fajl' => 'galeria', 'szoveg' => 'GALERIA'),
+    'Belepes' => array('fajl' => 'belep', 'szoveg' => 'BELÉPÉS'),
 );
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');

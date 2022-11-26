@@ -1,11 +1,38 @@
-<h2>Köszöntés</h2>
-<img src="./images/arc.jpg">
-<h3>Mi a Lorem Ipsum?</h3>
-<p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.</p>
-<h3>Honnan származik?</h3>
-<p>A hiedelemmel ellentétben a Lorem Ipsum nem véletlenszerû szöveg. Gyökerei egy Kr. E. 45-ös latin irodalmi klasszikushoz nyúlnak. Richarrd McClintock a virginiai Hampden-Sydney egyetem professzora kikereste az ismeretlenebb latin szavak közül az egyiket (consectetur) egy Lorem Ipsum részletbõl, és a klasszikus irodalmat átkutatva vitathatatlan forrást talált. A Lorem Ipsum az 1.10.32 és 1.10.33-as de Finibus Bonoruem et Malorum részleteibõl származik (A Jó és Rossz határai - Cicero), Kr. E. 45-bõl. A könyv az etika elméletét tanulmányozza, ami nagyon népszerû volt a reneszánsz korban. A Lorem Ipsum elsõ sora, Lorem ipsum dolor sit amet.. a 1.10.32-es bekezdésbõl származik.</p>
-<p>A Lorem Ipsum alaprészlete, amit az 1500-as évek óta használtak, az érdeklõdõk kedvéért lent újra megtekinthetõ. Az 1.10.32 és 1.10.33-as bekezdéseket szintén eredeti formájukban reprodukálták a hozzá tartozó angol változattal az 1914-es fordításból H. Rackhamtól.</p>
-<h3>Miért használjuk?</h3>
-<p>Ez egy régóta elfogadott tény, miszerint egy olvasót zavarja az olvasható szöveg miközben a szöveg elrendezését nézi. A Lorem Ipsum használatának lényege, hogy többé-kevésbé rendezettebb betûket tartalmaz, ellentétben a Tartalom helye, Tartalom helye-féle megoldással. Sok desktop szerkesztõ és weboldal szerkesztõ használja a Lorem Ipsum-ot mint alapbeállítású szövegmodellt, és egy keresés a lorem ipsum-ra sok félkész weboldalt fog eredményezni.</p>
-<h3>Honnan szerezhető be?</h3>
-<p>A Lorem Ipsum részleteinek sok változata elérhetõ, de a legtöbbet megváltoztatták egy kis humorral és véletlenszerûen kiválasztott szavakkal, amik kicsit sem teszik értelmessé. Ha használni készülsz a Lorem Ipsumot, biztosnak kell lenned abban, hogy semmi kínos sincs elrejtve a szöveg közepén. Az összes internetes Lorem Ipsum készítõ igyekszik elõre beállított részleteket ismételni a szükséges mennyiségben, ezzel téve az internet egyetlen igazi Lorem Ipsum generátorává ezt az oldalt. Az oldal körülbelül 200 latin szót használ, egy maroknyi modell-mondatszerkezettel így téve a Lorem Ipsumot elfogadhatóvá. Továbbá az elkészült Lorem Ipsum humortól, ismétlõdéstõl vagy értelmetlen szavaktól mentes.</p>
+<h1>AZ ALAPÍTVÁNYRÓL</h1>
+<img src="./images/tamogat.png">
+
+<p>Az Átlátszónet Alapítvány, az atlatszo.hu-val közösen,
+2013 óta elkötelezett támogatója a társadalmi igazságosság,
+a demokrácia és a fenntartható fejlődés érvényesülésének. 
+Az Átlátszónet Alapítvány célja az információszabadság érvényre juttatása érdekében a közhatalom átláthatóságának és a korrupció elleni fellépés elősegítése.
+</p>
+<h3>
+Az Átlátszónet Alapítvány az alábbi közhasznú tevékenységeket végzi:
+</h3>
+<ul>
+    <li>a közhatalom gyakorlásával, a közpénzek felhasználásával, az alapvető jogok és más jogosultságok védelmével összefüggő ügyekben oknyomozó újságírói tevékenységet támogat,</li>
+    <li>támogatja az oknyomozó újságírói tevékenység nyomán elkészülő művek megjelenését, illetve gondoskodik azok megjelenéséről,</li>
+    <li>támogatja közérdekű adatok, illetve közérdekből nyilvános adatok megismerésére irányuló igények előterjesztését, illetve az azokkal összefüggő hatósági és bírósági eljárások megindítását és folytatását,</li>
+    <li>elősegíti közérdekű, közérdekből nyilvános vagy egyéb okból bárki számára megismerhető adatok hozzáférhetővé tételét,</li>
+    <li>tevékenységének eredményeit a nyomtatott és az elektronikus sajtó, az internet, továbbá egyéb kiadványok útján nyilvánosságra hozza, arról konferenciákat, ismeretterjesztő előadásokat, illetve tanfolyamokat szervez,</li>
+    <li>együttműködik az átláthatósággal és a korrupció elleni küzdelemmel összefüggő tevékenységet folytató magyar és nemzetközi civil és más szervezetekkel, a részükre átadja a tevékenységével összefüggő tapasztalatokat.</li>
+</ul>
+<h3>
+Az Átlátszónet Alapítvány a KiMitTud közérdekű adatigénylő portál működtetésében és népszerűsítésében is aktív szerepet vállal.
+</h3>
+
+<h2>Alapadatok</h2>
+<ul>
+    <li>alapítás éve: 2013</li>
+    <li>a kuratórium elnöke: dr. Bodoky Tamás Richárd</li>
+    <li>kuratóriumi tagok: Gerner Péter, dr. Tóth Balázs</li>
+    <li>határozatok könyve: 2021, 2022</li>
+    <li>székhely: 1084 Budapest, Déri Miksa utca 10. 1. em. 10. ajtó</li>
+    <li>nyilvántartási szám: 01-01-0011774</li>
+    <li>adószám: 18516641-1-42</li>
+</ul>
+<p>Ügyvezető: <strong>Valaki Az</strong></p>
+<p>E-mail: <strong>valaki.az@minihonlap.hu</strong></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2726.3375296155727!2d19.66695091525771!3d46.89607994478184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da7a6c479e1d%3A0xc8292b3f6dc69e7f!2sPallasz+Ath%C3%A9n%C3%A9+Egyetem+GAMF+Kar!5e0!3m2!1shu!2shu!4v1475753185783" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<br>
+<a target="_blank" href="https://www.google.hu/maps/place/Pallasz+Ath%C3%A9n%C3%A9+Egyetem+GAMF+Kar/@46.8960799,19.6669509,17z/data=!3m1!4b1!4m5!3m4!1s0x4743da7a6c479e1d:0xc8292b3f6dc69e7f!8m2!3d46.8960763!4d19.6691396?hl=hu">Nagyobb térkép</a>
