@@ -27,3 +27,10 @@ $oldalak = array(
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
 ?>
+<?php
+    $MAPPA = './kepek/';
+    $TIPUSOK = array ('.jpg', '.png');
+    $MEDIATIPUSOK = array('image/jpeg', 'image/png');
+    $DATUMFORMA = "Y.m.d. H:i";
+    $MAXMERET = 500*1024;
+?>

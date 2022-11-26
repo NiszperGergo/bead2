@@ -1,11 +1,16 @@
-<h1>AZ ALAPÍTVÁNYRÓL</h1>
+<div  class="content-area">
 <img src="./images/tamogat.png">
-
+</div>
+<div class="container">
+    <div class="row">
+        <div class="content-area">
+        <h1>AZ ALAPÍTVÁNYRÓL</h1>
 <p>Az Átlátszónet Alapítvány, az atlatszo.hu-val közösen,
 2013 óta elkötelezett támogatója a társadalmi igazságosság,
 a demokrácia és a fenntartható fejlődés érvényesülésének. 
 Az Átlátszónet Alapítvány célja az információszabadság érvényre juttatása érdekében a közhatalom átláthatóságának és a korrupció elleni fellépés elősegítése.
 </p>
+     </div>
 <h3>
 Az Átlátszónet Alapítvány az alábbi közhasznú tevékenységeket végzi:
 </h3>
@@ -20,7 +25,8 @@ Az Átlátszónet Alapítvány az alábbi közhasznú tevékenységeket végzi:
 <h3>
 Az Átlátszónet Alapítvány a KiMitTud közérdekű adatigénylő portál működtetésében és népszerűsítésében is aktív szerepet vállal.
 </h3>
-
+</div>
+</div>
 <h2>Alapadatok</h2>
 <ul>
     <li>alapítás éve: 2013</li>
@@ -31,8 +37,17 @@ Az Átlátszónet Alapítvány a KiMitTud közérdekű adatigénylő portál mű
     <li>nyilvántartási szám: 01-01-0011774</li>
     <li>adószám: 18516641-1-42</li>
 </ul>
-<p>Ügyvezető: <strong>Valaki Az</strong></p>
-<p>E-mail: <strong>valaki.az@minihonlap.hu</strong></p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2726.3375296155727!2d19.66695091525771!3d46.89607994478184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da7a6c479e1d%3A0xc8292b3f6dc69e7f!2sPallasz+Ath%C3%A9n%C3%A9+Egyetem+GAMF+Kar!5e0!3m2!1shu!2shu!4v1475753185783" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-<br>
-<a target="_blank" href="https://www.google.hu/maps/place/Pallasz+Ath%C3%A9n%C3%A9+Egyetem+GAMF+Kar/@46.8960799,19.6669509,17z/data=!3m1!4b1!4m5!3m4!1s0x4743da7a6c479e1d:0xc8292b3f6dc69e7f!8m2!3d46.8960763!4d19.6691396?hl=hu">Nagyobb térkép</a>
+
+<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=1084 Budapest, Déri Miksa utca 10.rsity of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/">format json</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div> 
+    <br>
+    <div>
+    <iframe  width="800" height="600" src="https://www.youtube.com/embed/pmOAF_tBNbs" title="Adód 1%-ával támogasd a független újságírást!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+        <video
+            width="450" height="340" controls style="margin-left: auto; margin-right:auto; display: blcok;">
+            <source src="vid/atlaszto.mp4" type="video/mp4">
+    </video>
+    </div>
+   
+    
