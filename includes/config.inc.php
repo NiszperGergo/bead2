@@ -17,12 +17,14 @@ $lablec = array(
 
 $oldalak = array(
 	'/' => array('fajl' => 'cimlap', 'szoveg' => 'KEZDŐLAP'),
-	
-	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'KAPCSOLAT'),
-	'azadombol' => array('fajl' => 'ado', 'szoveg' => '#AZADOMBOL'),
-    'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'TABLAZAT'),
+    'azadombol' => array('fajl' => 'ado', 'szoveg' => '#AZADOMBOL'),
     'Galeria' => array('fajl' => 'galeria', 'szoveg' => 'GALERIA'),
+	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'KAPCSOLAT'),
+  
+   
+    
     'Belepes' => array('fajl' => 'belep', 'szoveg' => 'BELÉPÉS'),
+    'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'TABLAZAT'),
 );
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
