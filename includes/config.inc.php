@@ -20,7 +20,7 @@ $oldalak = array(
     'azadombol' => array('fajl' => 'ado', 'szoveg' => '#AZADOMBOL'),
     'Galeria' => array('fajl' => 'galéria', 'szoveg' => 'GALERIA'),
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'KAPCSOLAT'),
-    'Belepes' => array('fajl' => 'belepes', 'szoveg' => 'BELÉPÉS'),
+    'Belepes' => array('fajl' => 'belep', 'szoveg' => 'BELÉPÉS'),
     'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'TABLAZAT'),
 );
 

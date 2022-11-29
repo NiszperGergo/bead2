@@ -12,7 +12,7 @@ CREATE TABLE `felhasznalok` (
   PRIMARY KEY  (`id`)
 )
 ENGINE = MYISAM
-CHARACTER SET utf8 COLLATE utf8_general_ci;
+CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
 
 INSERT INTO `felhasznalok` (`id`,`csaladi_nev`,`uto_nev`,`bejelentkezes`,`jelszo`) VALUES 
  (1,'Családi_1','Utónév_1','Login1',sha1('login1')),

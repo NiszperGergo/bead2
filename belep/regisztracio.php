@@ -20,7 +20,7 @@
                               values(0, :csaladinev, :utonev, :bejelentkezes, :jelszo)";
                 $stmt = $dbh->prepare($sqlInsert); 
                 $stmt->execute(array(':csaladinev' => $_POST['vezeteknev'], ':utonev' => $_POST['utonev'],
-                                     ':bejelentkezes' => $_POST['felhasznalo'], ':jelszo' => sha1($_POST['jelszo']))); 
+                                     ':bejelentkezes' => $_POST['felhasznalo'], ':jelszo' =>$_POST['jelszo'])); 
                 if($count = $stmt->rowCount()) {
                     $newid = $dbh->lastInsertId();
                     $uzenet = "A regisztrációja sikeres.<br>Azonosítója: {$newid}";
@@ -47,7 +47,7 @@
         <?php if(isset($uzenet)) { ?>
             <h1><?= $uzenet ?></h1>
             <?php if($ujra) { ?>
-                <a href="belreg.html">Próbálja újra!</a>
+                <a href="./belep/belepes.php">Próbálja újra!</a>
             <?php } ?>
         <?php } ?>
     </body>
