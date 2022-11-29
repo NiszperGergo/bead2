@@ -10,12 +10,15 @@
     <h1>Kapcsolat</h1>
     <form name="kapcsolat" action="php/kapcsolat.php" onsubmit="return ellenoriz();" method="post">
         <div>
-            <label><input type="text" id="nev" name="nev" size="20" maxlength="40">Név (minimum 5 karakter): </label>
+        Név (minimum 5 karakter): <input type="text" id="nev" name="nev" size="20" maxlength="40">
             <br/>
-            <label><input type="text" id="email" name="email" size="30" maxlength="40">E-mail (kötelező): </label>
+            <br>
+        E-mail (kötelező): <input type="text" id="email" name="email" size="30" maxlength="40">
             <br/>
-            <label> <textarea id="szoveg" name="szoveg" cols="40" rows="10"></textarea> Üzenet (kötelező): </label>
+            <br>
+        <textarea id="szoveg" name="szoveg" cols="40" rows="10" placeholder="Üzenet (kötelező): "></textarea></label>
             <br/>
+            <br>
             <input id="kuld" type="submit" value="Küld">
             <button onclick="ellenoriz();" type="button">Ellenőriz</button>
         </div>
