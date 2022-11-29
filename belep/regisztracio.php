@@ -47,7 +47,7 @@
         <?php if(isset($uzenet)) { ?>
             <h1><?= $uzenet ?></h1>
             <?php if($ujra) { ?>
-                <a href="./belep/belepes.php">Próbálja újra!</a>
+                <a href="cimlap.tpl.php">Próbálja újra!</a>
             <?php } ?>
         <?php } ?>
     </body>
