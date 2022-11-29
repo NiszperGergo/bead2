@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MySql</title>
+    <title>Belepes</title>
     <meta charset="utf-8">
   </head>
   <body>
-    <form action = "belepes.php" method = "post">
+    <form action = "/belep/belepes.php" method = "post">
       <fieldset>
-        <legend>Bejlentkezés</legend>
+        <legend>Bejelentkezés</legend>
         <br>
         <input type="text" name="felhasznalo" placeholder="felhasználó" required><br><br>
         <input type="password" name="jelszo" placeholder="jelszó" required><br><br>
@@ -16,7 +16,7 @@
       </fieldset>
     </form>
     <h3>Regisztrálja magát, ha még nem felhasználó!</h2>
-    <form action = "regisztracio.php" method = "post">
+    <form action = "/belep/regisztracio.php" method = "post">
       <fieldset>
         <legend>Regisztráció</legend>
         <br>

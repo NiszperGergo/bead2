@@ -1,5 +1,5 @@
 CREATE DATABASE `reg`
-CHARACTER SET utf8 COLLATE utf8_general_ci;
+CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
 
 USE `reg`;
 
