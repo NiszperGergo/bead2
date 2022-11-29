@@ -18,16 +18,14 @@ $lablec = array(
 $oldalak = array(
 	'/' => array('fajl' => 'cimlap', 'szoveg' => 'KEZDŐLAP'),
     'azadombol' => array('fajl' => 'ado', 'szoveg' => '#AZADOMBOL'),
-    'Galeria' => array('fajl' => 'galeria', 'szoveg' => 'GALERIA'),
+    'Galeria' => array('fajl' => 'galéria', 'szoveg' => 'GALERIA'),
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'KAPCSOLAT'),
-  
-   
-    
-    'Belepes' => array('fajl' => 'belep', 'szoveg' => 'BELÉPÉS'),
+    'Belepes' => array('fajl' => 'belepes', 'szoveg' => 'BELÉPÉS'),
     'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'TABLAZAT'),
 );
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
+
 ?>
 <?php
     $MAPPA = './kepek/';
