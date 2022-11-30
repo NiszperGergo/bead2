@@ -1,5 +1,5 @@
 <div  class="content-area">
-<img src="./images/tamogat.png">
+<img src="./kepek/tamogat.png">
 </div>
 <div class="container">
     <div class="row">
