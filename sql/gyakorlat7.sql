@@ -1,7 +1,7 @@
-CREATE DATABASE `reg`
+CREATE DATABASE `gyakorlat7`
 CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
 
-USE `reg`;
+USE `gyakorlat7`;
 
 CREATE TABLE `felhasznalok` (
   `id` int(10) unsigned NOT NULL auto_increment,

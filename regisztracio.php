@@ -1,12 +1,12 @@
 <?php
     if(isset($_POST['felhasznalo']) && isset($_POST['jelszo']) && isset($_POST['vezeteknev']) && isset($_POST['utonev'])) {
         try {
-
-            $dbh = new PDO('mysql:host=localhost;dbname=reg', 'root', '',
+            // Kapcsolódás
+            $dbh = new PDO('mysql:host=localhost;dbname=gyakorlat7', 'root', '',
                             array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
             $dbh->query('SET NAMES utf8 COLLATE utf8_hungarian_ci');
-
-
+            
+            // Létezik már a felhasználói név?
             $sqlSelect = "select id from felhasznalok where bejelentkezes = :bejelentkezes";
             $sth = $dbh->prepare($sqlSelect);
             $sth->execute(array(':bejelentkezes' => $_POST['felhasznalo']));
@@ -15,16 +15,20 @@
                 $ujra = "true";
             }
             else {
-
+                // Ha nem létezik, akkor regisztráljuk
                 $sqlInsert = "insert into felhasznalok(id, csaladi_nev, uto_nev, bejelentkezes, jelszo)
                               values(0, :csaladinev, :utonev, :bejelentkezes, :jelszo)";
                 $stmt = $dbh->prepare($sqlInsert); 
                 $stmt->execute(array(':csaladinev' => $_POST['vezeteknev'], ':utonev' => $_POST['utonev'],
-                                     ':bejelentkezes' => $_POST['felhasznalo'], ':jelszo' =>$_POST['jelszo'])); 
+                                     ':bejelentkezes' => $_POST['felhasznalo'], ':jelszo' => sha1($_POST['jelszo']))); 
                 if($count = $stmt->rowCount()) {
                     $newid = $dbh->lastInsertId();
-                    $uzenet = "A regisztrációja sikeres.<br>Azonosítója: {$newid}";
+                    $uzenet = "A regisztrációja sikeres.<br>Azonosítója: {$newid}";          
                     $ujra = false;
+                    header("Location:index.php?oldalak=belep");
+
+
+                   
                 }
                 else {
                     $uzenet = "A regisztráció nem sikerült.";
@@ -33,9 +37,10 @@
             }
         }
         catch (PDOException $e) {
-            echo "Hibás: ".$e->getMessage();
-        }
+            echo "Hiba: ".$e->getMessage();
+        }      
     }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -47,8 +52,8 @@
         <?php if(isset($uzenet)) { ?>
             <h1><?= $uzenet ?></h1>
             <?php if($ujra) { ?>
-                <a href="cimlap.tpl.php">Próbálja újra!</a>
+                <a href="index.php">Próbálja újra!</a>
             <?php } ?>
         <?php } ?>
-    </body>
+    </body>  
 </html>

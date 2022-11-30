@@ -5,7 +5,7 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <form action = "/belep/belepes.php" method = "post">
+    <form action = "belepes.php" method = "post">
       <fieldset>
         <legend>Bejelentkezés</legend>
         <br>
@@ -16,7 +16,7 @@
       </fieldset>
     </form>
     <h3>Regisztrálja magát, ha még nem felhasználó!</h2>
-    <form action = "/belep/regisztracio.php" method = "post">
+    <form action = "regisztracio.php" method = "post">
       <fieldset>
         <legend>Regisztráció</legend>
         <br>

@@ -1,12 +1,12 @@
 <?php
     if(isset($_POST['felhasznalo']) && isset($_POST['jelszo'])) {
         try {
-
-            $dbh = new PDO('mysql:host=localhost;dbname=reg', 'root', '',
+            // Kapcsolódás
+            $dbh = new PDO('mysql:host=localhost;dbname=gyakorlat7', 'root', '',
                             array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
             $dbh->query('SET NAMES utf8 COLLATE utf8_hungarian_ci');
-
-
+            
+            // Felhsználó keresése
             $sqlSelect = "select id, csaladi_nev, uto_nev from felhasznalok where bejelentkezes = :bejelentkezes and jelszo = sha1(:jelszo)";
             $sth = $dbh->prepare($sqlSelect);
             $sth->execute(array(':bejelentkezes' => $_POST['felhasznalo'], ':jelszo' => $_POST['jelszo']));
@@ -14,7 +14,7 @@
         }
         catch (PDOException $e) {
             echo "Hiba: ".$e->getMessage();
-        }
+        }      
     }
 ?>
 <!DOCTYPE html>
@@ -29,9 +29,10 @@
                 <h1>Bejelentkezett:</h1>
                 Azonosító: <strong><?= $row['id'] ?></strong><br><br>
                 Név: <strong><?= $row['csaladi_nev']." ".$row['uto_nev'] ?></strong>
-            <?php } else { ?>
+               <a href="index.php" ><br><br>Ugrás a főoldalra!</a>
+                <?php } else { ?>
                 <h1>A bejelentkezés nem sikerült!</h1>
-                <a href="cimlap.tpl.php" >Próbálja újra!</a>
+                <a href="index.php" >Próbálja újra!</a>
             <?php } ?>
         <?php } ?>
     </body>

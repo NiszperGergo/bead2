@@ -47,6 +47,9 @@
     </style>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+        <div class="content-area">
     <h1>Feltöltés a galériába:</h1>
 <?php
     if (!empty($uzenet))
@@ -84,6 +87,9 @@
     <?php
     }
     ?>
+    </div>
+    </div>
+    </div>
     </div>
 </body>
 </html>

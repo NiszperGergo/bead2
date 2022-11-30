@@ -7,6 +7,9 @@
     <title>#Azadaombol</title>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="content-area">
     <h1>
     1% #AZENADOMBOL
 
@@ -34,5 +37,8 @@ Ha az 1 százalékodat a jövőben is az atlatszo.hu céljaira ajánlanád fel,<
 <h1>
 18516641-1-42
 </h1>
+</div>
+    </div>
+        </div>
 </body>
 </html>
