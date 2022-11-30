@@ -4,7 +4,7 @@ $ablakcim = array(
 );
 
 $fejlec = array(
-    'kepforras' => 'header.jpg',
+    'kepforras' => './kepek/header.jpg',
     'kepalt' => 'logo',
 	'cim' => 'Az Átlászónet Alapítvány hivatalos oldala',
 	
@@ -12,7 +12,7 @@ $fejlec = array(
 );
 $lablec = array(
     'copyright' => 'Átlászónet Alapítvány '.date("Y").'.',
-    'kepforras' => 'header.jpg'
+    'kepforras' => './kepek/header.jpg'
 );
 
 $oldalak = array(
