@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "gyakorlat7";
+$username = "lekerdezes";
+$password = "lekerdezes";
+$dbname = "lekerdezes";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -18,7 +18,7 @@ $result = $conn->query($sql);
 $rows=$result->num_rows;
 
 if ($rows > 0) {
-  echo "<table class=\"t_uzenet\"><tr style=\"background-color:#8cc63f\"><th>ID</th><th>Felhasználó</th><th>Email</th><th>Tárgy</th><th>Üzenet</th><th>Dátum</th></tr>";
+  echo "<table class=\"t_uzenet\"><tr style=\"background-color:red\"><th>ID</th><th>Felhasználó</th><th>Email</th><th>Tárgy</th><th>Üzenet</th><th>Dátum</th></tr>";
   // output data of each row
 
   for ($i=0; $i<$rows; $i++) {
