@@ -22,6 +22,7 @@ $oldalak = array(
     'galeria' => array('fajl' => 'galeria', 'szoveg' => 'GALERIA','menun'=>array(1,1)),
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'KAPCSOLAT','menun'=>array(1,1)),
     'uzenet' => array('fajl' => 'uzenet', 'szoveg' => 'ÜZENETEK','menun'=>array(1,1)),
+    'elkuld' => array('fajl' => 'elkuld', 'szoveg' => '', 'menun' => array(0,0)),
     'belepes' => array('fajl' => 'belepes', 'szoveg' => 'BELÉPÉS','menun'=>array(1,0)),
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'KILÉPÉS','menun'=>array(0,1)),
     'belep' => array('fajl' => 'belep', 'szoveg' => '','menun'=>array(0,0)),
