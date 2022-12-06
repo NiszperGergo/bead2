@@ -1,32 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Belepes</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <form action = "belepes.php" method = "post">
-      <fieldset>
-        <legend>Bejelentkezés</legend>
-        <br>
-        <input type="text" name="felhasznalo" placeholder="felhasználó" required><br><br>
-        <input type="password" name="jelszo" placeholder="jelszó" required><br><br>
-        <input type="submit" name="belepes" value="Belépés">
-        <br>&nbsp;
-      </fieldset>
-    </form>
-    <h3>Regisztrálja magát, ha még nem felhasználó!</h2>
-    <form action = "regisztracio.php" method = "post">
-      <fieldset>
-        <legend>Regisztráció</legend>
-        <br>
-        <input type="text" name="vezeteknev" placeholder="vezetéknév" required><br><br>
-        <input type="text" name="utonev" placeholder="utónév" required><br><br>
-        <input type="text" name="felhasznalo" placeholder="felhasználói név" required><br><br>
-        <input type="password" name="jelszo" placeholder="jelszó" required><br><br>
-        <input type="submit" name="regisztracio" value="Regisztráció">
-        <br>&nbsp;
-      </fieldset>
-    </form>
-  </body>
-</html>
+<?php if(isset($row)) { ?>
+    <?php if($row) { ?>
+        <h1>Bejelentkezett:</h1>
+        Azonosító: <strong><?= $row['id'] ?></strong><br><br>
+        Név: <strong><?= $row['csaladi_nev']." ".$row['uto_nev'] ?></strong>
+    <?php } else { ?>
+        <h1>A bejelentkezés nem sikerült!</h1>
+        <a href="?oldal=belepes" >Próbálja újra!</a>
+    <?php } ?>
+<?php } ?>
+<?php if(isset($errormessage)) { ?>
+    <h2><?= $errormessage ?></h2>
+<?php } ?>

@@ -38,11 +38,16 @@ Az Átlátszónet Alapítvány a KiMitTud közérdekű adatigénylő portál mű
     <li>adószám: 18516641-1-42</li>
 </ul>
 
-<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=800&amp;height=600&amp;hl=en&amp;q=1084 Budapest, Déri Miksa utca 10.&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/">Piratebay</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:600px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:600px;}.gmap_iframe {height:600px!important;}</style></div>
-        <video
+<div  class="mapouter"><div class="gmap_canvas"><iframe style="border: 3px solid rgb(0, 0, 0)" class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=800&amp;height=600&amp;hl=en&amp;q=1084 Budapest, Déri Miksa utca 10.&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/">Piratebay</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:600px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:600px;}.gmap_iframe {height:600px!important;}</style></div>
+       <br>
+       
+    <video style="border: 3px solid rgb(0, 0, 0)"
             width="450" height="340" controls style="margin-left: auto; margin-right:auto; display: blcok;">
             <source src="vid/atlaszto.mp4" type="video/mp4">
     </video>
     </div>
    
-    
+   
+<iframe width="500" height="395" 
+src="https://www.youtube.com/embed/pmOAF_tBNbs" title="Adód 1%-ával támogasd a független újságírást!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
