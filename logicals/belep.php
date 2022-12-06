@@ -20,6 +20,6 @@ if(isset($_POST['felhasznalo']) && isset($_POST['jelszo'])) {
     }      
 }
 else {
-    header("Location: .");
+    header("Location:index.php?oldal=belepes");
 }
 ?>

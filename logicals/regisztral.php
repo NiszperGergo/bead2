@@ -38,6 +38,6 @@ if(isset($_POST['felhasznalo']) && isset($_POST['jelszo']) && isset($_POST['veze
     }      
 }
 else {
-    header("Location: .");
+    header("Location:index.php?oldal=belepes");
 }
 ?>

@@ -29,6 +29,8 @@
 <br>
 <br>
 <br>
+<br>
+<br>
 <h3>
 Ha az 1 százalékodat a jövőben is az atlatszo.hu céljaira ajánlanád fel,<br> a személyi jövedelemadó (SZJA) 1% nyilatkozatodban az  Átlátszónet Alapítvány adószámát tüntesd fel: 
 

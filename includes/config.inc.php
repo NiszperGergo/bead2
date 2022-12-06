@@ -11,20 +11,21 @@ $fejlec = array(
     
 );
 $lablec = array(
-    'copyright' => 'Átlászónet Alapítvány '.date("Y").'.',
-    'kepforras' => './kepek/header.jpg'
+    'copyright' => '<a href="https://atlatszonet.hu" target="blank">Átlászónet Alapítvány</a> '.date("Y").'.',
+    'kepforras' => './kepek/header.jpg',
+    
 );
 
 $oldalak = array(
 	'/' => array('fajl' => 'cimlap', 'szoveg' => 'KEZDŐLAP', 'menun'=>array(1,1)),
     'azadombol' => array('fajl' => 'ado', 'szoveg' => '#AZADOMBOL','menun'=>array(1,1)),
-    'Galeria' => array('fajl' => 'galéria', 'szoveg' => 'GALERIA','menun'=>array(1,1)),
+    'galeria' => array('fajl' => 'galeria', 'szoveg' => 'GALERIA','menun'=>array(1,1)),
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'KAPCSOLAT','menun'=>array(1,1)),
-    'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'TÁBLÁZAT','menun'=>array(1,1)),
-    'Belepes' => array('fajl' => 'belepes', 'szoveg' => 'BELÉPÉS','menun'=>array(1,0)),
-    'Kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'KILÉPÉS','menun'=>array(0,1)),
-    'Belep' => array('fajl' => 'belep', 'szoveg' => '','menun'=>array(0,0)),
-    'Regisztal' => array('fajl' => 'regisztal', 'szoveg' => '','menun'=>array(0,0)),
+    'uzenetek' => array('fajl' => 'uzenetek', 'szoveg' => 'ÜZENETEK','menun'=>array(1,1)),
+    'belepes' => array('fajl' => 'belepes', 'szoveg' => 'BELÉPÉS','menun'=>array(1,0)),
+    'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'KILÉPÉS','menun'=>array(0,1)),
+    'belep' => array('fajl' => 'belep', 'szoveg' => '','menun'=>array(0,0)),
+    'regisztral' => array('fajl' => 'regisztral', 'szoveg' => '','menun'=>array(0,0)),
    
 );
 
