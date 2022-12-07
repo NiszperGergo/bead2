@@ -7,6 +7,9 @@
     <title>#Azadaombol</title>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="content-area">
     <h1>
     1% #AZENADOMBOL
 
@@ -26,6 +29,8 @@
 <br>
 <br>
 <br>
+<br>
+<br>
 <h3>
 Ha az 1 százalékodat a jövőben is az atlatszo.hu céljaira ajánlanád fel,<br> a személyi jövedelemadó (SZJA) 1% nyilatkozatodban az  Átlátszónet Alapítvány adószámát tüntesd fel: 
 
@@ -34,5 +39,8 @@ Ha az 1 százalékodat a jövőben is az atlatszo.hu céljaira ajánlanád fel,<
 <h1>
 18516641-1-42
 </h1>
+</div>
+    </div>
+        </div>
 </body>
 </html>

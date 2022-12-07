@@ -6,7 +6,7 @@ header {
    
 }
 body{
-    background-color: #777;
+    background-color: rgb(255, 255, 255);
 }
 
 header img {
@@ -35,7 +35,8 @@ aside {
 nav {
     margin: 0px 10px 0px 0px;
     top: 0px;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     background-color: #ffffff;
 }
 
@@ -63,7 +64,9 @@ nav ul a {
 div#content {
     display:table-cell;
     width: 100%;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: #ffffff;
     padding: 15px;
 }
@@ -79,7 +82,7 @@ div#content img{
 
 footer {
   
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 10px;
     padding: 20px 20px;
     background-color: #ffffff;
@@ -96,4 +99,134 @@ li{
 }
 .ado{
     float: right;
+}
+/*  */ 
+
+.t_uzenet{
+
+border: 2px solid grey;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+}
+.t_uzenet td{
+padding: 20px;
+  border: 2px solid grey;
+}
+
+.t_uzenet th{
+  border-bottom: 2px solid gray;
+ border: 2px solid grey;
+
+  
+  }
+
+.t_uzenet tr.paratlan{
+  
+ background-color:  white;
+border: 2px solid grey;
+
+}
+
+.t_uzenet tr.paros{
+border: 2px solid grey;
+ background-color: #F6927C;
+;
+
+
+}
+
+.t_uzenet tr:hover {
+
+  background-color: lightgreen;
+
+}
+.login{
+ background-color: white;
+float: left;
+}
+.reg{
+
+}
+.login-box{
+  width: 92%;
+  color: black;
+}
+.fhnev{
+  width: 90%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+ border: 2px solid black;
+  text-align: center;
+ 
+}
+.psw{
+  width: 90%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: 2px solid black;
+text-align: center;
+}
+.veznev{
+  width: 90%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: 2px solid black;
+text-align: center;
+}
+.utonev{
+ width: 90%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: 2px solid black;
+text-align: center;
+}
+.emailtxt{
+width: 90%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: 2px solid black;
+text-align: center;
+}
+.subject{
+width: 90%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: 2px solid black;
+text-align: center;
+}
+.message{
+width: 90%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: 2px solid black;
+text-align: center;
+}
+.btn2{
+
+  width: 92%;
+  color: black;
+}
+.btn3{
+
+  width: 20%;
+  color: black;
+margin: 10px;
 }
