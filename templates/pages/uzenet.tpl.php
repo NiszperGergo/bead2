@@ -4,7 +4,6 @@ $username = "lekerdezes";
 $password = "lekerdezes";
 $dbname = "lekerdezes";
 
-
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
@@ -37,5 +36,4 @@ if ($i%2==0) {
   echo "<h1>Nincsenek üzenetek.</h1>";
 }
 $conn->close();
-
 ?>
